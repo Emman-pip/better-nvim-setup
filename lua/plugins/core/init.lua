@@ -42,6 +42,9 @@ require("lazy").setup({
 		tag = "0.1.6",
 		dependencies = { "nvim-lua/plenary.nvim" },
 	},
+	{
+		"/lewis6991/gitsigns.nvim",
+	},
 })
 
 require("plugins.core.setups.mason_setup")
@@ -53,3 +56,4 @@ require("plugins.core.setups.telescope_setup")
 --configs
 require("plugins.core.lsp_setup")
 require("plugins.core.cmp_config")
+require("gitsigns").setup()
