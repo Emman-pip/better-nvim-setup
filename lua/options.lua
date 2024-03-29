@@ -12,3 +12,5 @@ vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.shell = "powershell.exe"
 vim.opt.wrap = false
+vim.opt.hlsearch = false
+vim.opt.cursorline = true
