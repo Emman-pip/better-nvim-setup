@@ -56,4 +56,4 @@ require("plugins.core.setups.telescope_setup")
 --configs
 require("plugins.core.lsp_setup")
 require("plugins.core.cmp_config")
-require("gitsigns").setup()
+require("plugins.core.setups.gitsigns")
