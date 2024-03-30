@@ -11,9 +11,9 @@
 -- end
 -- vim.opt.rtp:prepend(lazypath)
 
-vim.g.mapleader=' '
-vim.g.maplocalleader=' '
+vim.g.mapleader = " "
+vim.g.maplocalleader = " "
 
 require("plugins.lazy_setup")
 -- require("plugins.core")
-vim.cmd("echo 'hello'")
+vim.cmd("echo 'hello, Emmanuel!!'")
