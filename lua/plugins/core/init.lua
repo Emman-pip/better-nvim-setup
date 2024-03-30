@@ -58,6 +58,11 @@ require("lazy").setup({
 			-- refer to the configuration section below
 		},
 	},
+	{
+		"nvim-lualine/lualine.nvim",
+		dependencies = { "nvim-tree/nvim-web-devicons" },
+		opts = {},
+	},
 })
 
 require("plugins.core.setups.mason_setup")
