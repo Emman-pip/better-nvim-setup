@@ -63,6 +63,13 @@ require("lazy").setup({
 		dependencies = { "nvim-tree/nvim-web-devicons" },
 		opts = {},
 	},
+	{
+		"/goolord/alpha-nvim",
+		dependencies = { "nvim-tree/nvim-web-devicons" },
+		config = function()
+			require("alpha").setup(require("alpha.themes.theta").config)
+		end,
+	},
 })
 
 require("plugins.core.setups.mason_setup")
